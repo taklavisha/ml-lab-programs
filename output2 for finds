@@ -1,0 +1,22 @@
+['japan', 'honda', 'blue', '1980', 'economy', '1']
+['japan', 'toyota', 'green', '1970', 'sports', '0']
+['japan', 'toyota', 'blue', '1990', 'economy', '1']
+['USA', 'chrysler', 'red', '1980', 'economy', '0']
+['japan', 'honda', 'white', '1980', 'economy', '1']
+['japan', 'toyota', 'green', '1980', 'economy', '1']
+['japan', 'honda', 'red', '1990', 'economy', '0']
+The most general hypothesis: ['?', '?', '?', '?', '?']
+The most specific hypothesis: ['0', '0', '0', '0', '0']
+
+ Find S: Finding a maximally specific hypothesis
+The taining example no: 1  the hyposthesis is: ['japan', 'honda', 'blue', '1980', 'economy']
+The taining example no: 2  the hyposthesis is: ['japan', 'honda', 'blue', '1980', 'economy']
+The taining example no: 3  the hyposthesis is: ['japan', '?', 'blue', '?', 'economy']
+The taining example no: 4  the hyposthesis is: ['japan', '?', 'blue', '?', 'economy']
+The taining example no: 5  the hyposthesis is: ['japan', '?', '?', '?', 'economy']
+The taining example no: 6  the hyposthesis is: ['japan', '?', '?', '?', 'economy']
+The taining example no: 7  the hyposthesis is: ['japan', '?', '?', '?', 'economy']
+
+ The maximally specific hypohthesis for training set is
+['japan', '?', '?', '?', 'economy']
+​
